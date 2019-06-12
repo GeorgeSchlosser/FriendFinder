@@ -11,7 +11,6 @@ var PORT = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-
 //Serve static files w/ Express (https://expressjs.com/en/starter/static-files.html)
 app.use(express.static(path.join(__dirname, "./app/public")));
 
