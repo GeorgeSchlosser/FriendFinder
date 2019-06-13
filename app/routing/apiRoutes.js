@@ -63,7 +63,7 @@ module.exports = function(app) {
               bestMatch.friendDifference = totalDifference;
             }
             console.log(totalDifference + " Total Difference");
-          }
+        }
           console.log(bestMatch);
           
           //save user's info
