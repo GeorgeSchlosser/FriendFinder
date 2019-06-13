@@ -1,5 +1,5 @@
 // connect JSON
-var friends = require("..data/friends.js");
+var friends = require("../data/friends.js");
 
 // export the things
 module.exports = function(app) {
